@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.dealseeker20"
+    namespace = "com.example.dealseeker_login"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.dealseeker20"
+        applicationId = "com.example.dealseeker_login"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
