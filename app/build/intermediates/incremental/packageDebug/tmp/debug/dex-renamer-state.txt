@@ -1,4 +1,4 @@
-#Thu Apr 18 15:02:45 NZST 2024
+#Mon Apr 22 16:30:12 NZST 2024
 base.0=C\:\\Users\\assas\\OneDrive\\Documents\\GitHub\\DealSeeker2.0\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\assas\\OneDrive\\Documents\\GitHub\\DealSeeker2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\assas\\OneDrive\\Documents\\GitHub\\DealSeeker2.0\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
