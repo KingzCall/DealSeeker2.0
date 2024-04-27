@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_search.xml",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/search_page.xml",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/search_page.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_profile.xml",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_home.xml",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_home.xml"
+    }
+]

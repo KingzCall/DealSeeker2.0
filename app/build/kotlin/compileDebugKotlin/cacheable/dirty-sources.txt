@@ -1,0 +1,8 @@
+C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\java\com\example\dealseeker20\ui\theme\Type.kt
+C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\java\com\example\dealseeker_login\ui\theme\Type.kt
+C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\java\com\example\dealseeker20\ui\theme\Color.kt
+C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\java\com\example\dealseeker20\MainActivity.kt
+C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\java\com\example\dealseeker20\ui\theme\Theme.kt
+C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\java\com\example\dealseeker_login\ui\theme\Theme.kt
+C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\java\com\example\dealseeker_login\MainActivity.kt
+C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\java\com\example\dealseeker_login\ui\theme\Color.kt
