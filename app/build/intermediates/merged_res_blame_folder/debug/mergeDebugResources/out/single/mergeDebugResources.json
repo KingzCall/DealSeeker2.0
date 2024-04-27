@@ -20,6 +20,10 @@
         "source": "com.example.dealseeker_login.app-main-60:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.example.dealseeker_login.app-debug-58:/drawable_heart.png.flat",
+        "source": "com.example.dealseeker_login.app-main-60:/drawable/heart.png"
+    },
+    {
         "merged": "com.example.dealseeker_login.app-debug-58:/drawable_skin_care.png.flat",
         "source": "com.example.dealseeker_login.app-main-60:/drawable/skin_care.png"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "com.example.dealseeker_login.app-debug-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.dealseeker_login.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-debug-58:/layout_fragment_wishlist.xml.flat",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_wishlist.xml"
     },
     {
         "merged": "com.example.dealseeker_login.app-debug-58:/layout_fragment_profile.xml.flat",
@@ -120,12 +128,12 @@
         "source": "com.example.dealseeker_login.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.dealseeker_login.app-debug-58:/drawable_marketing.png.flat",
-        "source": "com.example.dealseeker_login.app-main-60:/drawable/marketing.png"
-    },
-    {
         "merged": "com.example.dealseeker_login.app-debug-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.dealseeker_login.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-debug-58:/drawable_marketing.png.flat",
+        "source": "com.example.dealseeker_login.app-main-60:/drawable/marketing.png"
     },
     {
         "merged": "com.example.dealseeker_login.app-debug-58:/drawable_loupe.png.flat",

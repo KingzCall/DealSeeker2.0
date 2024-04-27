@@ -2375,6 +2375,7 @@ drawable design_snackbar_background
 drawable ds_secondary
 drawable dslogo
 drawable game_console
+drawable heart
 drawable home
 drawable home_cinema
 drawable household_appliance
@@ -2537,6 +2538,7 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
+id bottomNavigationView
 id bottom_navigation
 id bounce
 id buttonPanel
@@ -2624,6 +2626,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frame_layout
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2725,9 +2728,6 @@ id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
-id navigation_home
-id navigation_profile
-id navigation_search
 id never
 id noScroll
 id none
@@ -2755,6 +2755,8 @@ id pin
 id pooling_container_listener_holder_tag
 id position
 id postLayout
+id privacy_policy
+id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -2778,6 +2780,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_button
@@ -2791,6 +2794,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settings
 id shortcut
 id showCustom
 id showHome
@@ -2803,6 +2807,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id social_media
 id spacer
 id special_effects_controller_view_tag
 id spline
@@ -2887,6 +2892,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id wishlist
 id withText
 id withinBounds
 id wrap
@@ -2998,6 +3004,7 @@ layout design_text_input_start_icon
 layout fragment_home
 layout fragment_profile
 layout fragment_search
+layout fragment_wishlist
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout m3_alert_dialog

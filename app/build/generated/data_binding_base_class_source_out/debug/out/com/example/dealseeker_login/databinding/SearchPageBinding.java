@@ -24,17 +24,12 @@ public final class SearchPageBinding implements ViewBinding {
   public final BottomNavigationView bottomNavigation;
 
   @NonNull
-  public final RelativeLayout main;
-
-  @NonNull
   public final EditText usernameInput;
 
   private SearchPageBinding(@NonNull RelativeLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull RelativeLayout main,
-      @NonNull EditText usernameInput) {
+      @NonNull BottomNavigationView bottomNavigation, @NonNull EditText usernameInput) {
     this.rootView = rootView;
     this.bottomNavigation = bottomNavigation;
-    this.main = main;
     this.usernameInput = usernameInput;
   }
 
@@ -71,16 +66,13 @@ public final class SearchPageBinding implements ViewBinding {
         break missingId;
       }
 
-      RelativeLayout main = (RelativeLayout) rootView;
-
       id = R.id.username_input;
       EditText usernameInput = ViewBindings.findChildViewById(rootView, id);
       if (usernameInput == null) {
         break missingId;
       }
 
-      return new SearchPageBinding((RelativeLayout) rootView, bottomNavigation, main,
-          usernameInput);
+      return new SearchPageBinding((RelativeLayout) rootView, bottomNavigation, usernameInput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

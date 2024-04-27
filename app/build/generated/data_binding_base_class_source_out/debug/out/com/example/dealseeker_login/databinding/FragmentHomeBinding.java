@@ -4,20 +4,46 @@ package com.example.dealseeker_login.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.dealseeker_login.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final EditText emailInput;
+
+  @NonNull
+  public final FrameLayout main;
+
+  @NonNull
+  public final EditText passwordInput;
+
+  @NonNull
+  public final Button signUpButton;
+
+  @NonNull
+  public final EditText usernameInput;
+
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull EditText emailInput,
+      @NonNull FrameLayout main, @NonNull EditText passwordInput, @NonNull Button signUpButton,
+      @NonNull EditText usernameInput) {
     this.rootView = rootView;
+    this.emailInput = emailInput;
+    this.main = main;
+    this.passwordInput = passwordInput;
+    this.signUpButton = signUpButton;
+    this.usernameInput = usernameInput;
   }
 
   @Override
@@ -43,10 +69,40 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHomeBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.email_input;
+      EditText emailInput = ViewBindings.findChildViewById(rootView, id);
+      if (emailInput == null) {
+        break missingId;
+      }
 
-    return new FragmentHomeBinding((FrameLayout) rootView);
+      FrameLayout main = (FrameLayout) rootView;
+
+      id = R.id.password_input;
+      EditText passwordInput = ViewBindings.findChildViewById(rootView, id);
+      if (passwordInput == null) {
+        break missingId;
+      }
+
+      id = R.id.sign_up_button;
+      Button signUpButton = ViewBindings.findChildViewById(rootView, id);
+      if (signUpButton == null) {
+        break missingId;
+      }
+
+      id = R.id.username_input;
+      EditText usernameInput = ViewBindings.findChildViewById(rootView, id);
+      if (usernameInput == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((FrameLayout) rootView, emailInput, main, passwordInput,
+          signUpButton, usernameInput);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
