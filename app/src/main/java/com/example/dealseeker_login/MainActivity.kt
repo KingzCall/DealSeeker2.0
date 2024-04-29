@@ -1,16 +1,10 @@
 package com.example.dealseeker_login
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
-import com.example.dealseeker_login.Home
-import com.example.dealseeker_login.Profile
-import com.example.dealseeker_login.R
-import com.example.dealseeker_login.Search
-import com.example.dealseeker_login.Wishlist
 import com.example.dealseeker_login.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -22,31 +16,32 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
 
+
         replaceFragment(Home())
 
-        binding.bottomNavigationView.setOnItemSelectedListener {
 
-            when(it.itemId){
 
-                //R.id.home -> replaceFragment(Home())
-                R.id.home -> replaceFragment(Home())
+
+        binding.bottomNavigationView.setOnItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                androidx.constraintlayout.widget.R.id.home -> replaceFragment(Home())
                 R.id.search -> replaceFragment(Search())
                 R.id.profile -> replaceFragment(Profile())
                 R.id.wishlist -> replaceFragment(Wishlist())
+                R.id.btnPhones -> {
+                    // Handle button click on the Phones and GPS page
+                    replaceFragment(PhonesAndGPS())
+                }
 
-                else->{
-
-
-
+                else -> {
+                    // Handle other menu items if needed
                 }
             }
-
             true
-
         }
-
-
     }
+
+
 
 
     private fun replaceFragment(fragment:Fragment){

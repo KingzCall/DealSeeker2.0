@@ -23,38 +23,6 @@
             android:padding="16dp"
             android:orientation="vertical">
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
             <EditText
                 android:id="@+id/username_input"
                 android:layout_width="match_parent"
@@ -78,173 +46,80 @@
                 android:padding="10dp"
                 android:layout_gravity="left"/>
 
-            <LinearLayout
+            <Button
+                android:id="@+id/btnPhones"
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Phone and GPS"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/smartphone"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Phones and GPS"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:padding="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/btnCameras"
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Camera and Photo"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/camera"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Camer and Photo"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:padding="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/btnComputers"
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Computers and Accessories"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/imac"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Computers and Accessories"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:padding="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/btnAudio"
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Audio and Video"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/home_cinema"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Audio and Video"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:padding="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/btnGames"
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Games and Consoles"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/game_console"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Games and Consoles"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:padding="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/btnHousehold"
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Home and Household"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/household_appliance"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Home and Household"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:padding="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/btnBeauty"
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Beauty and Health"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/skin_care"
-                    android:layout_gravity="center"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Beauty and Health"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:padding="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
-
-            <LinearLayout
+            <Button
+                android:id="@+id/btnSports"
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Outdoor and Sports"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/smartphone"
-                    android:layout_gravity="center"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Phones and GPS"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:padding="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
+
 
 
 

@@ -31,9 +31,17 @@ drawable smartphone
 drawable user
 id bottomNavigationView
 id bottom_navigation
+id btnAudio
+id btnBeauty
+id btnCameras
+id btnComputers
+id btnGames
+id btnHousehold
+id btnPhones
+id btnSports
 id email_input
+id fragmentContainerView
 id frame_layout
-id home
 id main
 id password_input
 id privacy_policy
@@ -46,6 +54,7 @@ id username_input
 id wishlist
 layout activity_main
 layout fragment_home
+layout fragment_phones_and_g_p_s
 layout fragment_profile
 layout fragment_search
 layout fragment_wishlist

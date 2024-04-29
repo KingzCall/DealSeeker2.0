@@ -26,5 +26,13 @@
     {
         "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\fragment_profile.xml",
         "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\fragment_phones_and_g_p_s.xml",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_phones_and_g_p_s.xml"
     }
 ]

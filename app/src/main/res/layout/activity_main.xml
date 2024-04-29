@@ -28,4 +28,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav"/>
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.dealseeker_login.PhonesAndGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

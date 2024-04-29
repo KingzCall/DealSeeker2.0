@@ -12,6 +12,10 @@
         "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\smartphone.png"
     },
     {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_phones_and_g_p_s.xml.flat",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_phones_and_g_p_s.xml"
+    },
+    {
         "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_loupe.png.flat",
         "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\loupe.png"
     },
@@ -130,6 +134,10 @@
     {
         "merged": "com.example.dealseeker_login.app-debug-58:/layout_fragment_search.xml.flat",
         "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-debug-58:/layout_activity_main.xml.flat",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_button_background.xml.flat",

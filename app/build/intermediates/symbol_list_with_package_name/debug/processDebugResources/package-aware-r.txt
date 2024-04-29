@@ -2541,6 +2541,14 @@ id bottom
 id bottomNavigationView
 id bottom_navigation
 id bounce
+id btnAudio
+id btnBeauty
+id btnCameras
+id btnComputers
+id btnGames
+id btnHousehold
+id btnPhones
+id btnSports
 id buttonPanel
 id cancel_button
 id center
@@ -2625,6 +2633,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragmentContainerView
 id fragment_container_view_tag
 id frame_layout
 id ghost_view
@@ -3002,6 +3011,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
+layout fragment_phones_and_g_p_s
 layout fragment_profile
 layout fragment_search
 layout fragment_wishlist
