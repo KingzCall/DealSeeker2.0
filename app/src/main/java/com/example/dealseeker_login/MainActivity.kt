@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             when(it.itemId){
 
                 //R.id.home -> replaceFragment(Home())
-                //R.id.home -> replaceFragment(Home())
+                R.id.home -> replaceFragment(Home())
                 R.id.search -> replaceFragment(Search())
                 R.id.profile -> replaceFragment(Profile())
                 R.id.wishlist -> replaceFragment(Wishlist())
