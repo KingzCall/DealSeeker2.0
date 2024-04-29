@@ -23,6 +23,70 @@
             android:padding="16dp"
             android:orientation="vertical">
 
+            <Button
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Phone and GPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Camera and Photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Computers and Accessories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Audio and Video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Games and Consoles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Home and Household"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Beauty and Health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/login_background"
+                android:textColor="@color/white"
+                android:width="250dp"
+                android:text="Outdoor and Sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
             <EditText
                 android:id="@+id/username_input"
                 android:layout_width="match_parent"
