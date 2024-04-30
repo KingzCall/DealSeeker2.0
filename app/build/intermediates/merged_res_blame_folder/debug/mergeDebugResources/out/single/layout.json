@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_search.xml",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\search_page.xml",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\search_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\fragment_wishlist.xml",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_wishlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-mergeDebugResources-57:\\layout\\fragment_phones_and_g_p_s.xml",
+        "source": "C:\\Users\\yahya\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_phones_and_g_p_s.xml"
+    }
+]
