@@ -1,4 +1,4 @@
-package com.example.dealseeker_login
+package com.example.dealseeker
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

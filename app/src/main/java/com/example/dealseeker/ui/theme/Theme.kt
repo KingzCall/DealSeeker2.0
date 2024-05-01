@@ -1,4 +1,4 @@
-package com.example.dealseeker_login.ui.theme
+package com.example.dealseeker.ui.theme
 
 import android.app.Activity
 import android.os.Build

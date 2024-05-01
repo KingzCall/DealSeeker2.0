@@ -1,4 +1,4 @@
-package com.example.dealseeker_login
+package com.example.dealseeker
 
 import org.junit.Test
 
