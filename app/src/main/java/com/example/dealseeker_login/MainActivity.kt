@@ -9,6 +9,9 @@ import com.example.dealseeker_login.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    private val BASE_URL = "https://jsonplaceholder.typicode.com/"
+    private val TAG: String = "CHECK_RESPONSE"
+
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
