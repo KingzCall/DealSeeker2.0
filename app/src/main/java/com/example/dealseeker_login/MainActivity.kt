@@ -22,9 +22,10 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
+
         binding.bottomNavigationView.setOnItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
-                androidx.constraintlayout.widget.R.id.home -> replaceFragment(Home())
                 R.id.search -> replaceFragment(Search())
                 R.id.profile -> replaceFragment(Profile())
                 R.id.wishlist -> replaceFragment(Wishlist())
@@ -44,11 +45,11 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    private fun replaceFragment(fragment:Fragment){
-
+    private fun replaceFragment(fragment: Fragment) {
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.frame_layout,fragment)
+        fragmentTransaction.replace(R.id.frame_layout, fragment)
+        fragmentTransaction.addToBackStack(null) // Add fragment to back stack
         fragmentTransaction.commit()
     }
 }

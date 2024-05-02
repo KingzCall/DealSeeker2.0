@@ -198,18 +198,33 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/email_input"
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:hint="Email"
+                android:hint="Username"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:background="@drawable/rounded_corner"
                 android:padding="10dp"
                 android:inputType="text"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:hint="Passsword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:background="@drawable/rounded_corner"
+                android:padding="10dp"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"/>
+
 
             <Button
                 android:id="@+id/sign_up_button"
@@ -222,14 +237,15 @@
                 android:textSize="20sp"
                 android:layout_marginBottom="200dp"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hello_blank_fragment" />
+
 
         </LinearLayout>
     </ScrollView>
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
