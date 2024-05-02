@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.dealseeker_login.R;
@@ -30,20 +31,25 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final EditText passwordInput;
 
   @NonNull
-  public final Button signUpButton;
+  public final RecyclerView recyclerView;
 
   @NonNull
-  public final EditText usernameInput;
+  public final EditText searchEditText;
+
+  @NonNull
+  public final Button signUpButton;
 
   private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull EditText emailInput,
-      @NonNull FrameLayout main, @NonNull EditText passwordInput, @NonNull Button signUpButton,
-      @NonNull EditText usernameInput) {
+      @NonNull FrameLayout main, @NonNull EditText passwordInput,
+      @NonNull RecyclerView recyclerView, @NonNull EditText searchEditText,
+      @NonNull Button signUpButton) {
     this.rootView = rootView;
     this.emailInput = emailInput;
     this.main = main;
     this.passwordInput = passwordInput;
+    this.recyclerView = recyclerView;
+    this.searchEditText = searchEditText;
     this.signUpButton = signUpButton;
-    this.usernameInput = usernameInput;
   }
 
   @Override
@@ -87,20 +93,26 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.searchEditText;
+      EditText searchEditText = ViewBindings.findChildViewById(rootView, id);
+      if (searchEditText == null) {
+        break missingId;
+      }
+
       id = R.id.sign_up_button;
       Button signUpButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpButton == null) {
         break missingId;
       }
 
-      id = R.id.username_input;
-      EditText usernameInput = ViewBindings.findChildViewById(rootView, id);
-      if (usernameInput == null) {
-        break missingId;
-      }
-
       return new FragmentHomeBinding((FrameLayout) rootView, emailInput, main, passwordInput,
-          signUpButton, usernameInput);
+          recyclerView, searchEditText, signUpButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

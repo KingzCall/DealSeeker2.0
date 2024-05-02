@@ -2730,6 +2730,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameTextView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2764,6 +2765,7 @@ id pin
 id pooling_container_listener_holder_tag
 id position
 id postLayout
+id priceTextView
 id privacy_policy
 id profile
 id progress_circular
@@ -2771,6 +2773,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id report_drawn
 id reverseSawtooth
 id right
@@ -2790,6 +2793,7 @@ id scrollIndicatorUp
 id scrollView
 id scrollable
 id search
+id searchEditText
 id search_badge
 id search_bar
 id search_button
@@ -2835,6 +2839,7 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stop
+id storeTextView
 id stretch
 id submenuarrow
 id submit_area
@@ -3017,6 +3022,7 @@ layout fragment_search
 layout fragment_wishlist
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_product
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3300,6 +3306,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string range_end
 string range_start
+string search_hint
 string search_menu_title
 string selected
 string status_bar_notification_info_overflow

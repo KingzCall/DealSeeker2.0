@@ -11,6 +11,7 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">DealSeeker_Login</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">What are you looking for?</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">#FF26085C</item>

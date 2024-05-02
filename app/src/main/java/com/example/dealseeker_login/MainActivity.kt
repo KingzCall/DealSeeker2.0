@@ -1,28 +1,53 @@
 package com.example.dealseeker_login
 
 import android.os.Bundle
-import android.widget.Button
+import android.text.Editable
+import android.text.TextWatcher
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.dealseeker_login.databinding.ActivityMainBinding
-import com.example.dealseeker_login.model.Product
-import com.example.dealseeker_login.model.ProductDatabaseHelper
+import com.example.dealseeker_login.model.AppInitializer
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private lateinit var searchEditText: EditText
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var adapter: ProductAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         enableEdgeToEdge()
         setContentView(binding.root)
 
-
+        //populate database method
+        AppInitializer.initDatabase(this)
         replaceFragment(Home())
 
+        /*
+        searchEditText = findViewById(R.id.searchEditText)
+        recyclerView = findViewById(R.id.recyclerView)
 
+        adapter = ProductAdapter()
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.adapter = adapter
 
+        searchEditText.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
+
+            override fun afterTextChanged(s: Editable?) {
+                val searchTerm = s.toString().trim()
+                searchProducts(searchTerm)
+            }
+        })
+        */
 
         binding.bottomNavigationView.setOnItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
@@ -43,38 +68,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    //populating database with products from different stores for product search and price comparison instead
-    //of using the internet
-    private fun populateDatabase() {
+    private fun searchProducts(searchTerm: String) {
         val dbHelper = ProductDatabaseHelper(this)
-
-        // Adding smartphone prices from three different stores
-        val smartphone1 = Product(1, "Samsung Galaxy S21", 999.00, "Store A")
-        val smartphone2 = Product(2, "Samsung Galaxy S21", 989.00, "Store B")
-        val smartphone3 = Product(3, "Samsung Galaxy S21", 995.00, "Store C")
-
-        // Adding laptop prices from three different stores
-        val laptop1 = Product(4, "MacBook Pro", 1999.00, "Store A")
-        val laptop2 = Product(5, "MacBook Pro", 1949.00, "Store B")
-        val laptop3 = Product(6, "MacBook Pro", 2005.00, "Store C")
-
-        // Adding tablet prices from three different stores
-        val tablet1 = Product(7, "iPad Pro", 799.00, "Store A")
-        val tablet2 = Product(8, "iPad Pro", 789.00, "Store B")
-        val tablet3 = Product(9, "iPad Pro", 805.00, "Store C")
-
-        // Inserting products into the database
-        dbHelper.addProduct(smartphone1)
-        dbHelper.addProduct(smartphone2)
-        dbHelper.addProduct(smartphone3)
-        dbHelper.addProduct(laptop1)
-        dbHelper.addProduct(laptop2)
-        dbHelper.addProduct(laptop3)
-        dbHelper.addProduct(tablet1)
-        dbHelper.addProduct(tablet2)
-        dbHelper.addProduct(tablet3)
-
-
+        val productList = dbHelper.searchProductsByName(searchTerm)
+        adapter.submitList(productList)
     }
 
     private fun replaceFragment(fragment:Fragment){
