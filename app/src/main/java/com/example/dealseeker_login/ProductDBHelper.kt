@@ -1,9 +1,11 @@
-package com.example.dealseeker_login.model
+package com.example.dealseeker_login
 
+import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import com.example.dealseeker_login.model.Product
 
 class ProductDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     // Database and table information
@@ -37,6 +39,28 @@ class ProductDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABA
         db.insert(TABLE_PRODUCTS, null, values)
         db.close()
     }
+
+    @SuppressLint("Range")
+    fun searchProductsByName(name: String): List<Product> {
+        val productList = mutableListOf<Product>()
+        val db = this.readableDatabase
+        val query = "SELECT * FROM $TABLE_PRODUCTS WHERE $KEY_NAME LIKE ?"
+        val cursor = db.rawQuery(query, arrayOf("%$name%"))
+
+        cursor?.use {
+            while (it.moveToNext()) {
+                val id = it.getInt(it.getColumnIndex(KEY_ID))
+                val productName = it.getString(it.getColumnIndex(KEY_NAME))
+                val price = it.getDouble(it.getColumnIndex(KEY_PRICE))
+                val store = it.getString(it.getColumnIndex(KEY_STORE))
+                productList.add(Product(id, productName, price, store))
+            }
+        }
+
+        cursor?.close()
+        return productList
+    }
+
 
     // Other CRUD operations (read, update, delete) can be added here
 }

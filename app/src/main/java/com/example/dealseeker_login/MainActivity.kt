@@ -1,14 +1,11 @@
 package com.example.dealseeker_login
 
 import android.os.Bundle
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.dealseeker_login.databinding.ActivityMainBinding
 import com.example.dealseeker_login.model.AppInitializer
-import com.example.dealseeker_login.model.Product
-import com.example.dealseeker_login.model.ProductDatabaseHelper
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,6 +1,7 @@
 package com.example.dealseeker_login.model
 
 import android.content.Context
+import com.example.dealseeker_login.ProductDatabaseHelper
 
 object AppInitializer {
 
