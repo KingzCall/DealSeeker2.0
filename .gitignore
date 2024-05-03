@@ -1,7 +1,14 @@
 
-/.gradle
+/gradle/
+/gradle
+
 /local.properties
-/.idea/workspace.xml
+local.properties
+
+/build/
 /build
-/.idea
+
+/idea/
+idea/
 .idea/workspace.xml
+/.idea/workspace.xml

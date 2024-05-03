@@ -42,6 +42,7 @@ id btnSports
 id email_input
 id fragmentContainerView
 id frame_layout
+id home
 id main
 id nameTextView
 id password_input
