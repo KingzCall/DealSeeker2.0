@@ -1,18 +1,5 @@
-
-/gradle/
-/gradle
-
-/local.properties
+.gradle
+.idea
+build
+gradle
 local.properties
-
-/build/
-/build
-<<<<<<< HEAD
-
-/idea/
-idea/
-.idea/workspace.xml
-/.idea/workspace.xml
-=======
-/.idea
->>>>>>> parent of 3037bfd (updating .gitignore file 2)
