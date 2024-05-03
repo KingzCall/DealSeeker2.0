@@ -2935,7 +2935,6 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id password
 id password_input
 id password_toggle
 id path
@@ -2992,7 +2991,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signUpButton
 id signupButton
 id signupPassword
 id signupRedirect
@@ -3085,7 +3083,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id username
 id username_input
 id vertical_only
 id view_offset_helper

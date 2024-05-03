@@ -30,7 +30,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="25dp"
                 android:hint="What are you looking for?"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
@@ -43,7 +43,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="25dp"
                 android:hint="Popular Categories"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
@@ -55,7 +55,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="30dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -179,66 +179,12 @@
             </HorizontalScrollView>
 
 
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="22dp"
-                android:src="@drawable/marketing"/>
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:padding="10dp"
-                android:textStyle="bold"
-                android:text="Sign up to get amazing deals and access more features!"
-                android:textColor="@color/white"
-                android:textSize="20sp" />
-
-            <EditText
-                android:id="@+id/username"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="Username"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                android:textSize="20sp"
-                android:background="@drawable/rounded_corner"
-                android:padding="10dp"
-                android:inputType="text"
-                android:layout_marginBottom="10dp"
-                tools:ignore="MissingConstraints" />
-
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
-                android:hint="Passsword"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                android:textSize="20sp"
-                android:background="@drawable/rounded_corner"
-                android:padding="10dp"
-                android:inputType="text"
-                android:layout_marginBottom="10dp"
-                tools:ignore="MissingConstraints" />
 
 
-            <Button
-                android:id="@+id/signUpButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sign Up"
-                android:background="@drawable/button_background"
-                android:textColor="@color/white"
-                android:padding="18dp"
-                android:textSize="20sp"
-                android:layout_marginBottom="200dp"
-                tools:ignore="MissingConstraints" />
+
+
 
 
 
@@ -247,6 +193,5 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- TODO: Update blank fragment layout -->
 
 </FrameLayout>

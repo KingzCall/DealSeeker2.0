@@ -1,6 +1,7 @@
 package com.example.dealseeker_login
 
 import android.os.Bundle
+import com.example.dealseeker_login.Home
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.bottomNavigationView.setOnItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
+                androidx.appcompat.R.id.home -> replaceFragment(Home())
                 R.id.search -> replaceFragment(Search())
                 R.id.profile -> replaceFragment(Profile())
                 R.id.wishlist -> replaceFragment(Wishlist())

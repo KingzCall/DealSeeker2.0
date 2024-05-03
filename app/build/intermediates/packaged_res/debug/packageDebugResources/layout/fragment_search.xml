@@ -20,8 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="125dp"
             android:gravity="center"
-            android:padding="16dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="16dp">
 
             <EditText
                 android:id="@+id/username_input"
@@ -40,92 +40,86 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Categroies"
-                android:textSize="20sp"
-                android:textColor="@color/white"
+                android:layout_gravity="left"
                 android:padding="10dp"
-                android:layout_gravity="left"/>
+                android:text="Categroies"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnPhones"
-                android:background="@drawable/login_background"
-                android:textColor="@color/white"
-                android:width="250dp"
-                android:text="Phone and GPS"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:background="@drawable/login_background"
+                android:text="Phone and GPS"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btnCameras"
-                android:background="@drawable/login_background"
-                android:textColor="@color/white"
-                android:width="250dp"
-                android:text="Camera and Photo"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:background="@drawable/login_background"
+                android:text="Camera and Photo"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btnComputers"
-                android:background="@drawable/login_background"
-                android:textColor="@color/white"
-                android:width="250dp"
-                android:text="Computers and Accessories"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:background="@drawable/login_background"
+                android:text="Computers and Accessories"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btnAudio"
-                android:background="@drawable/login_background"
-                android:textColor="@color/white"
-                android:width="250dp"
-                android:text="Audio and Video"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:background="@drawable/login_background"
+                android:text="Audio and Video"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btnGames"
-                android:background="@drawable/login_background"
-                android:textColor="@color/white"
-                android:width="250dp"
-                android:text="Games and Consoles"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:background="@drawable/login_background"
+                android:text="Games and Consoles"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btnHousehold"
-                android:background="@drawable/login_background"
-                android:textColor="@color/white"
-                android:width="250dp"
-                android:text="Home and Household"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:background="@drawable/login_background"
+                android:text="Home and Household"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btnBeauty"
-                android:background="@drawable/login_background"
-                android:textColor="@color/white"
-                android:width="250dp"
-                android:text="Beauty and Health"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:background="@drawable/login_background"
+                android:text="Beauty and Health"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btnSports"
-                android:background="@drawable/login_background"
-                android:textColor="@color/white"
-                android:width="250dp"
-                android:text="Outdoor and Sports"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-
-
-
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:background="@drawable/login_background"
+                android:text="Outdoor and Sports"
+                android:textColor="@color/white" />
 
 
         </LinearLayout>
-
-
 
 
     </ScrollView>
