@@ -33,7 +33,8 @@
         android:theme="@style/Theme.DealSeeker_Login" >
         <activity
             android:name="com.example.dealseeker_login.loginActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,7 +43,8 @@
         </activity>
         <activity
             android:name="com.example.dealseeker_login.signupActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="com.example.dealseeker_login.MainActivity"
             android:exported="false" >
