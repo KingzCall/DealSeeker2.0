@@ -30,7 +30,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.DealSeeker_Login" >
+        android:theme="@style/Theme.AppCompat" >
         <activity
             android:name="com.example.dealseeker_login.loginActivity"
             android:exported="true"
@@ -47,7 +47,8 @@
             android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="com.example.dealseeker_login.MainActivity"
-            android:exported="false" >
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" >
         </activity>
 
         <service
