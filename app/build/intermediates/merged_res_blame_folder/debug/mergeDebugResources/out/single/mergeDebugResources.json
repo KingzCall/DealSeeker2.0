@@ -1,178 +1,182 @@
 [
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_phones_and_g_p_s.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_phones_and_g_p_s.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_home_cinema.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\home_cinema.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_home.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\home.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_wishlist.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_wishlist.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_wishlist.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_wishlist.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\menu\\bottom_nav.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_button_background.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\button_background.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_border_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\border_bottom_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_home_cinema.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\home_cinema.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_camera.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\camera.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_smartphone.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\smartphone.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\button_background.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_household_appliance.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\household_appliance.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\menu_bottom_nav.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\menu\\bottom_nav.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_user.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\user.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_rounded_corner.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\rounded_corner.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_marketing.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\marketing.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_login_background.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\login_background.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\rounded_corner.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_game_console.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\game_console.png"
+        "merged": "com.example.dealseeker_login.app-debug-58:/layout_fragment_wishlist.xml.flat",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_wishlist.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_search.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_search.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_search_page.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\search_page.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_smartphone.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\smartphone.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_border_bottom_navigation.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\border_bottom_navigation.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_household_appliance.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\household_appliance.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\xml_fragment_wishlist.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\xml\\fragment_wishlist.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_skin_care.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\skin_care.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.dealseeker_login.app-debug-58:/layout_item_product.xml.flat",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/item_product.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_ds_secondary.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\ds_secondary.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_search_page.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\search_page.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_user.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\user.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_phones_and_g_p_s.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_phones_and_g_p_s.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_imac.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\imac.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_home.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\home.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_search.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_marketing.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\marketing.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_game_console.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\game_console.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_camera.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\camera.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_imac.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\imac.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_loupe.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\loupe.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_heart.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\heart.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_heart.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\heart.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_skin_care.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\skin_care.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_login_background.xml.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\login_background.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\item_product.xml"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_dslogo.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\dslogo.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.dealseeker_login.app-debug-58:/layout_fragment_home.xml.flat",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_loupe.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\loupe.png"
     },
     {
-        "merged": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_ds_secondary.png.flat",
-        "source": "C:\\Users\\assas\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\ds_secondary.png"
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_dslogo.png.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\dslogo.png"
+    },
+    {
+        "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\fragment_home.xml"
     }
 ]
