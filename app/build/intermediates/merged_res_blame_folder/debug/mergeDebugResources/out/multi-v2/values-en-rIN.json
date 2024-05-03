@@ -4,7 +4,24 @@
             "outputFile": "com.example.dealseeker_login.app-mergeDebugResources-61:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\55a2f00abb59997e76be3af06e8a8f09\\transformed\\material3-release\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\a2cfa7ce697fbd8a916e33186af71c63\\transformed\\ui-release\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,279,373,472,559,641,730,819,903,968,1032,1110,1192,1265,1342,1408",
+                        "endColumns": "91,81,93,98,86,81,88,88,83,64,63,77,81,72,76,65,120",
+                        "endOffsets": "192,274,368,467,554,636,725,814,898,963,1027,1105,1187,1260,1337,1403,1524"
+                    },
+                    "to": {
+                        "startLines": "36,37,39,40,41,45,46,103,104,105,106,107,108,110,112,113,114",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3481,3573,3753,3847,3946,4338,4420,10518,10607,10691,10756,10820,10898,11063,11237,11314,11380",
+                        "endColumns": "91,81,93,98,86,81,88,88,83,64,63,77,81,72,76,65,120",
+                        "endOffsets": "3568,3650,3842,3941,4028,4415,4504,10602,10686,10751,10815,10893,10975,11131,11309,11375,11496"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\078d8b3e80a1cf7bf4d927006e086b7a\\transformed\\material3-release\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\f2f9d27793d8f7f887ee974e23f8b4d7\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\6e3db4b32f29336e61aae0d4b14fd24c\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\2d75e013a93e425bfbdc9a042b4804b9\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,153,250,359",
-                        "endColumns": "97,96,108,98",
-                        "endOffsets": "148,245,354,453"
-                    },
-                    "to": {
-                        "startLines": "38,42,43,44",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3655,4033,4130,4239",
-                        "endColumns": "97,96,108,98",
-                        "endOffsets": "3748,4125,4234,4333"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\afa28c5ea6d5a4697e124c202b20be82\\transformed\\foundation-release\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\756c10292fea2097ef8a7d07101ef11f\\transformed\\foundation-release\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\9100b93a08fa3bc24eb7a3d58090e7bb\\transformed\\appcompat-1.6.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\3205aed8d603055a648fbb99c98826f9\\transformed\\appcompat-1.6.1\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -89,20 +89,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\628f34ff6d417227de4b4d214b791f5d\\transformed\\ui-release\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\fd67c0abe0d20841a3e8023b4d4c08bf\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,197,279,373,472,559,641,730,819,903,968,1032,1110,1192,1265,1342,1408",
-                        "endColumns": "91,81,93,98,86,81,88,88,83,64,63,77,81,72,76,65,120",
-                        "endOffsets": "192,274,368,467,554,636,725,814,898,963,1027,1105,1187,1260,1337,1403,1524"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,153,250,359",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "148,245,354,453"
                     },
                     "to": {
-                        "startLines": "36,37,39,40,41,45,46,103,104,105,106,107,108,110,112,113,114",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3481,3573,3753,3847,3946,4338,4420,10518,10607,10691,10756,10820,10898,11063,11237,11314,11380",
-                        "endColumns": "91,81,93,98,86,81,88,88,83,64,63,77,81,72,76,65,120",
-                        "endOffsets": "3568,3650,3842,3941,4028,4415,4504,10602,10686,10751,10815,10893,10975,11131,11309,11375,11496"
+                        "startLines": "38,42,43,44",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3655,4033,4130,4239",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "3748,4125,4234,4333"
                     }
                 }
             ]

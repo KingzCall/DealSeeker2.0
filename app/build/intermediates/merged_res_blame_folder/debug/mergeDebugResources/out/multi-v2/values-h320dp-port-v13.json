@@ -4,7 +4,7 @@
             "outputFile": "com.example.dealseeker_login.app-mergeDebugResources-61:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\836ee217ed91ba00be3c3d030ee8b962\\transformed\\material-1.5.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\bd6faa03891aceee3dfc85b828da010a\\transformed\\material-1.5.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
