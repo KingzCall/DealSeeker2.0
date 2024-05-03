@@ -29,6 +29,7 @@ drawable rounded_corner
 drawable skin_care
 drawable smartphone
 drawable user
+id addToWishlistButton
 id bottomNavigationView
 id bottom_navigation
 id btnAudio
@@ -42,7 +43,6 @@ id btnSports
 id email_input
 id fragmentContainerView
 id frame_layout
-id home
 id main
 id nameTextView
 id password_input
@@ -58,6 +58,8 @@ id social_media
 id storeTextView
 id username_input
 id wishlist
+id wishlistCheckbox
+id wishlistRecyclerView
 layout activity_main
 layout fragment_home
 layout fragment_phones_and_g_p_s
@@ -69,19 +71,13 @@ layout search_page
 menu bottom_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
+string add_to_wishlist
 string app_name
-string audio_and_video
-string cameras
-string computer_and_accessories
-string email
-string games_and_consoles
 string hello_blank_fragment
-string phones_and_gps_message
-string popular_categories
 string search_hint
-string sign_up
-string sign_up_message
+string wishlist
 style AppTheme
 style Theme.DealSeeker_Login
 xml backup_rules
 xml data_extraction_rules
+xml fragment_wishlist

@@ -25,8 +25,7 @@
             <ImageView
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@drawable/dslogo"
-                android:contentDescription="TODO" />
+                android:src="@drawable/dslogo" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -39,27 +38,26 @@
                 android:background="@drawable/rounded_corner"
                 android:padding="8dp"
                 android:inputType="text"
-                android:id="@+id/searchEditText"
-                android:autofillHints="" />
+                android:id="@+id/searchEditText"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_below="@id/searchEditText"
                 android:padding="8dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:hint="@string/popular_categories"
+                android:hint="Popular Categories"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:padding="5dp"
                 android:inputType="textPassword"
-                android:id="@+id/password_input"
-                android:autofillHints="" />
+                android:id="@+id/password_input"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -85,7 +83,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/phones_and_gps_message"
+                            android:text="Phones and GPS"
                             android:textSize="15sp"
                             android:textColor="@color/white"
                             android:padding="10dp"
@@ -111,7 +109,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:padding="10dp"
-                            android:text="@string/cameras"
+                            android:text="Cameras"
                             android:textColor="@color/white"
                             android:textSize="15sp" />
 
@@ -133,7 +131,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:padding="10dp"
-                            android:text="@string/computer_and_accessories"
+                            android:text="Computer and Accesories"
                             android:textColor="@color/white"
                             android:textSize="15sp" />
 
@@ -153,7 +151,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/audio_and_video"
+                            android:text="Audio and Video"
                             android:textSize="15sp"
                             android:textColor="@color/white"
                             android:padding="10dp"
@@ -175,7 +173,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/games_and_consoles"
+                            android:text="Games and consoles"
                             android:textSize="15sp"
                             android:textColor="@color/white"
                             android:padding="10dp"
@@ -202,7 +200,7 @@
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
                 android:textStyle="bold"
-                android:text="@string/sign_up_message"
+                android:text="Sign up to get amazing deals and access more features!"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -211,21 +209,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:hint="@string/email"
+                android:hint="Email"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 android:textSize="20sp"
                 android:background="@drawable/rounded_corner"
                 android:padding="10dp"
                 android:inputType="text"
-                android:layout_marginBottom="20dp"
-                android:autofillHints="" />
+                android:layout_marginBottom="20dp"/>
 
             <Button
                 android:id="@+id/sign_up_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sign_up"
+                android:text="Sign Up"
                 android:background="@drawable/button_background"
                 android:textColor="@color/white"
                 android:padding="18dp"
