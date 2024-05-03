@@ -35,7 +35,8 @@
                 android:padding="8dp"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:autofillHints="" />
 
             <TextView
                 android:layout_width="wrap_content"

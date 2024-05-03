@@ -10,8 +10,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">DealSeeker_Login</string>
+    <string name="audio_and_video">Audio and Video</string>
+    <string name="cameras">Cameras</string>
+    <string name="computer_and_accessories">Computer and Accessories</string>
+    <string name="email">Email</string>
+    <string name="games_and_consoles">Games and consoles</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phones_and_gps_message">Phones and GPS</string>
+    <string name="popular_categories">Popular Categories</string>
     <string name="search_hint">What are you looking for?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_message">Sign up to get amazing deals and access more features!</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">#FF26085C</item>

@@ -69,8 +69,17 @@ menu bottom_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string audio_and_video
+string cameras
+string computer_and_accessories
+string email
+string games_and_consoles
 string hello_blank_fragment
+string phones_and_gps_message
+string popular_categories
 string search_hint
+string sign_up
+string sign_up_message
 style AppTheme
 style Theme.DealSeeker_Login
 xml backup_rules
