@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.databinding:viewbinding:8.4.0] C:\Users\yahya\.gradle\caches\transforms-4\0fa4a1a0568a09b38343c3c87e2a6d92\transformed\viewbinding-8.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\yahya\.gradle\caches\transforms-4\e79357df16684e87c9985b20304114fd\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yahya\.gradle\caches\transforms-4\6c827ab131aa02524690051a7918df2e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:17:1-75:12
@@ -101,8 +101,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\yahya\.
 	xmlns:android
 		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:5:5-45:19
-INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:5:5-45:19
+ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:5:5-31:19
+INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:5:5-31:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\yahya\.gradle\caches\transforms-4\e79357df16684e87c9985b20304114fd\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\yahya\.gradle\caches\transforms-4\e79357df16684e87c9985b20304114fd\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yahya\.gradle\caches\transforms-4\6c827ab131aa02524690051a7918df2e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
@@ -189,28 +189,12 @@ ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidMan
 		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
 		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:25:13-43
-activity#com.example.dealseeker_login.LoginActivity
-ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:27:9-35:20
-	android:exported
-		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:29:13-36
-	android:name
-		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:28:13-42
-activity#com.example.dealseeker_login.SignupActivity
-ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:36:9-38:40
-	android:exported
-		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:38:13-37
-	android:name
-		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:37:13-43
 activity#com.example.dealseeker_login.MainActivity
-ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:39:9-44:20
-	android:label
-		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:42:13-45
+ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:27:9-30:20
 	android:exported
-		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:41:13-37
-	android:theme
-		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:43:13-44
+		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:40:13-41
+		ADDED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml:28:13-41
 uses-sdk
 INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\yahya\OneDrive\Desktop\DealSeeker2.0\app\src\main\AndroidManifest.xml
