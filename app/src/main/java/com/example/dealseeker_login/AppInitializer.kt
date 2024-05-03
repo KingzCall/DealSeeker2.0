@@ -1,4 +1,4 @@
-package com.example.dealseeker_login.model
+package com.example.dealseeker_login
 
 import android.content.Context
 import com.example.dealseeker_login.ProductDatabaseHelper
