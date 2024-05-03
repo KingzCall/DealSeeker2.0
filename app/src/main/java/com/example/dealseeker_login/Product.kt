@@ -1,4 +1,4 @@
-package com.example.dealseeker_login.model
+package com.example.dealseeker_login
 
 data class Product(
     val id: Int,

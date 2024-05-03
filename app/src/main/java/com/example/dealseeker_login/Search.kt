@@ -10,8 +10,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.dealseeker_login.R
 import com.example.dealseeker_login.R.id.addToWishlistButton
-import com.example.dealseeker_login.model.Product
-import com.example.dealseeker_login.model.ProductDatabaseHelper
+
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
