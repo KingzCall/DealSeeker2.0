@@ -25,4 +25,13 @@
         android:textSize="14sp"
         android:textStyle="italic"/>
 
+    <!-- Add a checkbox for wishlist -->
+    <CheckBox
+        android:id="@+id/wishlistCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Wishlist"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"/>
+
 </LinearLayout>

@@ -3,26 +3,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#26085C"> <!-- Blue background color -->
+    android:orientation="vertical">
 
     <!-- Title -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/wishlist"
+        android:text="Wishlist"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"
-    android:padding="16dp"/>
+        android:padding="16dp"/>
 
     <Button
-        android:id="@+id/addToWishlistButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_to_wishlist"
-        android:textColor="#FFFFFF"
-    android:backgroundTint="#800080" /> <!-- Blue background color -->
+    android:id="@+id/addToWishlistButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add to Wishlist" />
 
     <!-- Wishlist Items RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
@@ -38,7 +34,6 @@
         android:clipChildren="false"
         android:overScrollMode="never"
         android:scrollbars="vertical"
-        android:background="#FFFFFF" /> <!-- White background color -->
+        android:background="@android:color/white" />
 
 </LinearLayout>
-

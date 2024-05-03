@@ -16,17 +16,28 @@ class ProductDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABA
         private const val KEY_NAME = "name"
         private const val KEY_PRICE = "price"
         private const val KEY_STORE = "store"
+        private const val KEY_WISHLIST = "wishlist"
     }
 
     override fun onCreate(db: SQLiteDatabase?) {
-        val createTableQuery = "CREATE TABLE $TABLE_PRODUCTS ($KEY_ID INTEGER PRIMARY KEY, $KEY_NAME TEXT, $KEY_PRICE REAL, $KEY_STORE TEXT)"
+        val createTableQuery = "CREATE TABLE $TABLE_PRODUCTS ($KEY_ID INTEGER PRIMARY KEY, $KEY_NAME TEXT, $KEY_PRICE REAL, $KEY_STORE TEXT,  $KEY_WISHLIST INTEGER )"
         db?.execSQL(createTableQuery)
+    }
+    // Add a method to update the wishlist status of a product
+    fun updateWishlistStatus(productId: Int, isInWishlist: Boolean) {
+        val db = this.writableDatabase
+        val values = ContentValues().apply {
+            put(KEY_WISHLIST, if (isInWishlist) 1 else 0)
+        }
+        db.update(TABLE_PRODUCTS, values, "$KEY_ID=?", arrayOf(productId.toString()))
+        db.close()
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
         db?.execSQL("DROP TABLE IF EXISTS $TABLE_PRODUCTS")
         onCreate(db)
     }
+
 
     fun addProduct(product: Product) {
         val db = this.writableDatabase
@@ -61,5 +72,5 @@ class ProductDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABA
     }
 
 
-    // Other CRUD operations (read, update, delete) can be added here
+
 }

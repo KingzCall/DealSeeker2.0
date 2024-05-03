@@ -1,59 +1,62 @@
 package com.example.dealseeker_login
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.Toast
+import androidx.fragment.app.Fragment
+import com.example.dealseeker_login.model.Product
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [Wishlist.newInstance] factory method to
- * create an instance of this fragment.
- */
 class Wishlist : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_wishlist, container, false)
+        val view = inflater.inflate(R.layout.fragment_wishlist, container, false)
+
+        // Find the button to add to wishlist
+        val addToWishlistButton: Button = view.findViewById(R.id.addToWishlistButton)
+
+        // Set click listener for add to wishlist button
+        addToWishlistButton.setOnClickListener {
+            // Simulate adding to wishlist (replace with your actual logic)
+            addToWishlist()
+
+            // Show toast message to indicate item added to wishlist
+            Toast.makeText(requireContext(), "Item added to wishlist", Toast.LENGTH_SHORT).show()
+        }
+
+        return view
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Wishlist.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            Wishlist().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+    private fun addToWishlist() {
+        // Simulate adding to wishlist (replace with your actual logic)
+        val product = getProductToAddToWishlist()
+        if (product != null) {
+            addToWishlist(product.id, product.name, product.price, product.store)
+        }
     }
+
+    private fun getProductToAddToWishlist(): Product? {
+        // Replace this with logic to get the product the user wants to add to the wishlist
+        // For demonstration purposes, let's create a dummy product
+        return Product(1, "Dummy Product", 10.0, "Dummy Store")
+    }
+
+    // Function to simulate adding to wishlist (replace with your actual logic)
+    private fun addToWishlist(productId: Int, productName: String, price: Double, store: String) {
+        val dbHelper = ProductDatabaseHelper(requireContext())
+
+        // Create a new Product object with the provided details
+        val product = Product(productId, productName, price, store)
+
+        // Add the product to the wishlist by inserting it into the database
+        dbHelper.addProduct(product)
+    }
+
 }
+

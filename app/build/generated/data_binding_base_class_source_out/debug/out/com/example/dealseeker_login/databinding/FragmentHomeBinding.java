@@ -22,6 +22,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final Button addToWishlistButton;
+
+  @NonNull
   public final EditText emailInput;
 
   @NonNull
@@ -39,11 +42,12 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final Button signUpButton;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull EditText emailInput,
-      @NonNull FrameLayout main, @NonNull EditText passwordInput,
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull Button addToWishlistButton,
+      @NonNull EditText emailInput, @NonNull FrameLayout main, @NonNull EditText passwordInput,
       @NonNull RecyclerView recyclerView, @NonNull EditText searchEditText,
       @NonNull Button signUpButton) {
     this.rootView = rootView;
+    this.addToWishlistButton = addToWishlistButton;
     this.emailInput = emailInput;
     this.main = main;
     this.passwordInput = passwordInput;
@@ -79,6 +83,12 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.addToWishlistButton;
+      Button addToWishlistButton = ViewBindings.findChildViewById(rootView, id);
+      if (addToWishlistButton == null) {
+        break missingId;
+      }
+
       id = R.id.email_input;
       EditText emailInput = ViewBindings.findChildViewById(rootView, id);
       if (emailInput == null) {
@@ -111,8 +121,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, emailInput, main, passwordInput,
-          recyclerView, searchEditText, signUpButton);
+      return new FragmentHomeBinding((FrameLayout) rootView, addToWishlistButton, emailInput, main,
+          passwordInput, recyclerView, searchEditText, signUpButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
