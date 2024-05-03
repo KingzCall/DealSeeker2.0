@@ -1,30 +1,38 @@
 [
     {
-        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_search.xml",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_search.xml"
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/activity_main.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/search_page.xml",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/search_page.xml"
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/fragment_phones_and_g_p_s.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/fragment_phones_and_g_p_s.xml"
     },
     {
-        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_phones_and_g_p_s.xml",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_phones_and_g_p_s.xml"
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/activity_login.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/activity_login.xml"
     },
     {
-        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_wishlist.xml",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_wishlist.xml"
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/fragment_wishlist.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/fragment_wishlist.xml"
     },
     {
-        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/activity_main.xml",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/activity_main.xml"
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/search_page.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/search_page.xml"
     },
     {
-        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_profile.xml",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_profile.xml"
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/fragment_profile.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.example.dealseeker_login.app-mergeDebugResources-57:/layout/fragment_home.xml",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_home.xml"
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/fragment_search.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/activity_signup.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-mergeDebugResources-62:/layout/fragment_home.xml",
+        "source": "com.example.dealseeker_login.app-main-65:/layout/fragment_home.xml"
     }
 ]

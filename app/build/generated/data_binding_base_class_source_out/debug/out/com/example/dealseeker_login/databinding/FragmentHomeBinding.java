@@ -21,10 +21,10 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final EditText emailInput;
+  public final FrameLayout main;
 
   @NonNull
-  public final FrameLayout main;
+  public final EditText password;
 
   @NonNull
   public final EditText passwordInput;
@@ -33,16 +33,20 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final Button signUpButton;
 
   @NonNull
+  public final EditText username;
+
+  @NonNull
   public final EditText usernameInput;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull EditText emailInput,
-      @NonNull FrameLayout main, @NonNull EditText passwordInput, @NonNull Button signUpButton,
-      @NonNull EditText usernameInput) {
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull FrameLayout main,
+      @NonNull EditText password, @NonNull EditText passwordInput, @NonNull Button signUpButton,
+      @NonNull EditText username, @NonNull EditText usernameInput) {
     this.rootView = rootView;
-    this.emailInput = emailInput;
     this.main = main;
+    this.password = password;
     this.passwordInput = passwordInput;
     this.signUpButton = signUpButton;
+    this.username = username;
     this.usernameInput = usernameInput;
   }
 
@@ -73,13 +77,13 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.email_input;
-      EditText emailInput = ViewBindings.findChildViewById(rootView, id);
-      if (emailInput == null) {
+      FrameLayout main = (FrameLayout) rootView;
+
+      id = R.id.password;
+      EditText password = ViewBindings.findChildViewById(rootView, id);
+      if (password == null) {
         break missingId;
       }
-
-      FrameLayout main = (FrameLayout) rootView;
 
       id = R.id.password_input;
       EditText passwordInput = ViewBindings.findChildViewById(rootView, id);
@@ -87,9 +91,15 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.sign_up_button;
+      id = R.id.signUpButton;
       Button signUpButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpButton == null) {
+        break missingId;
+      }
+
+      id = R.id.username;
+      EditText username = ViewBindings.findChildViewById(rootView, id);
+      if (username == null) {
         break missingId;
       }
 
@@ -99,8 +109,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, emailInput, main, passwordInput,
-          signUpButton, usernameInput);
+      return new FragmentHomeBinding((FrameLayout) rootView, main, password, passwordInput,
+          signUpButton, username, usernameInput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

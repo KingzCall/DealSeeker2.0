@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dealseeker_login.app-mergeDebugResources-56:/values-port/values-port.xml",
+            "outputFile": "com.example.dealseeker_login.app-mergeDebugResources-61:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-3\\9d6ebe287eba67fd567ff23f99326255\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\9100b93a08fa3bc24eb7a3d58090e7bb\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

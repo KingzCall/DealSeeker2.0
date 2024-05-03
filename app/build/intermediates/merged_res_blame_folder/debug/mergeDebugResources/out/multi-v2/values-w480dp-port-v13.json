@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dealseeker_login.app-mergeDebugResources-56:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.example.dealseeker_login.app-mergeDebugResources-61:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-3\\44fa4fe8c34c5d96cc510729c2189980\\transformed\\material-1.5.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\yahya\\.gradle\\caches\\transforms-4\\836ee217ed91ba00be3c3d030ee8b962\\transformed\\material-1.5.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

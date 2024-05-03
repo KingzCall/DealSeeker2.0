@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "903052124981",
+    "project_id": "dealseeker-478c5",
+    "storage_bucket": "dealseeker-478c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903052124981:android:e832aee175f4cdcfa1e27c",
+        "android_client_info": {
+          "package_name": "com.example.dealseeker_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7el0m6-CEERzJNzaIveWX2r5l4NGhcoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903052124981:android:15724d61209192a3a1e27c",
+        "android_client_info": {
+          "package_name": "com.example.dslogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7el0m6-CEERzJNzaIveWX2r5l4NGhcoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
