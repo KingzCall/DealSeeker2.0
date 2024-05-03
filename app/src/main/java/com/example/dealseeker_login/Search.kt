@@ -1,5 +1,6 @@
 package com.example.dealseeker_login
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +9,9 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.dealseeker_login.R
+import com.example.dealseeker_login.R.id.addToWishlistButton
 import com.example.dealseeker_login.model.Product
+import com.example.dealseeker_login.model.ProductDatabaseHelper
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -25,6 +28,7 @@ class Search : Fragment() {
         }
     }
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -33,7 +37,7 @@ class Search : Fragment() {
         val view = inflater.inflate(R.layout.fragment_search, container, false)
 
         // Find the button to add to wishlist
-        val addToWishlistButton: Button = view.findViewById(R.id.addToWishlistButton)
+        val addToWishlistButton: Button = view.findViewById(addToWishlistButton)
 
         // Set click listener for add to wishlist button
         addToWishlistButton.setOnClickListener {

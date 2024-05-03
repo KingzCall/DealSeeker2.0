@@ -12,4 +12,6 @@
     <string name="games_and_consoles">Games and consoles</string>
     <string name="sign_up">Sign Up</string>
     <string name="email">Email</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="add_to_wishlist">Add to Wishlist</string>
 </resources>
