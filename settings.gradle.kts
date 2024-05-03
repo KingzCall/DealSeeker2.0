@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DealSeeker2.0"
+rootProject.name = "DealSeeker_Login"
 include(":app")
  

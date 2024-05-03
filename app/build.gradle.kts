@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.dealseeker20"
+    namespace = "com.example.dealseeker_login"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.dealseeker20"
+        applicationId = "com.example.dealseeker_login"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -38,6 +38,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
@@ -51,6 +52,8 @@ android {
 
 dependencies {
 
+    implementation("com.google.android.material:material:1.5.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
