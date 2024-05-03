@@ -37,10 +37,10 @@ class Search : Fragment() {
         val view = inflater.inflate(R.layout.fragment_search, container, false)
 
         // Find the button to add to wishlist
-        val addToWishlistButton: Button = view.findViewById(addToWishlistButton)
+        val addToWishlistButton: Button? = view.findViewById(addToWishlistButton) as? Button
 
         // Set click listener for add to wishlist button
-        addToWishlistButton.setOnClickListener {
+        addToWishlistButton?.setOnClickListener {
             // Get the product details from the current view or any other source
             val productId = 1 // Example product ID
             val productName = "Example Product" // Example product name
