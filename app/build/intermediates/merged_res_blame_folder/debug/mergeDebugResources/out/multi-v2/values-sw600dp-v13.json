@@ -4,7 +4,7 @@
             "outputFile": "com.example.dealseeker_login.app-mergeDebugResources-56:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\malee\\.gradle\\caches\\transforms-3\\9d6ebe287eba67fd567ff23f99326255\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\assas\\.gradle\\caches\\transforms-3\\9d6ebe287eba67fd567ff23f99326255\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\malee\\.gradle\\caches\\transforms-3\\44fa4fe8c34c5d96cc510729c2189980\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\assas\\.gradle\\caches\\transforms-3\\395fde0067f6515b5c869a2468a1af0d\\transformed\\material-1.12.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

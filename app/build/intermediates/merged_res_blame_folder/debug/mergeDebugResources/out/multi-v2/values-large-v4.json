@@ -4,7 +4,7 @@
             "outputFile": "com.example.dealseeker_login.app-mergeDebugResources-56:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\malee\\.gradle\\caches\\transforms-3\\9d6ebe287eba67fd567ff23f99326255\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\assas\\.gradle\\caches\\transforms-3\\9d6ebe287eba67fd567ff23f99326255\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,22 +14,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\malee\\.gradle\\caches\\transforms-3\\44fa4fe8c34c5d96cc510729c2189980\\transformed\\material-1.5.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\assas\\.gradle\\caches\\transforms-3\\395fde0067f6515b5c869a2468a1af0d\\transformed\\material-1.12.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
-                        "startLines": "2,3,4,10",
+                        "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,177,311,752",
-                        "endLines": "2,3,9,15",
-                        "endColumns": "121,133,10,10",
-                        "endOffsets": "172,306,747,1190"
+                        "startOffsets": "55,169,285,407",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "164,280,402,536"
                     },
                     "to": {
-                        "startLines": "11,12,13,19",
+                        "startLines": "11,12,13,14",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "752,874,1008,1449",
-                        "endLines": "11,12,18,24",
-                        "endColumns": "121,133,10,10",
-                        "endOffsets": "869,1003,1444,1887"
+                        "startOffsets": "752,866,982,1104",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "861,977,1099,1233"
                     }
                 }
             ]
