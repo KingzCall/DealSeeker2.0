@@ -4,6 +4,7 @@ package com.example.dealseeker_login.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -28,12 +29,17 @@ public final class ItemProductBinding implements ViewBinding {
   @NonNull
   public final TextView storeTextView;
 
+  @NonNull
+  public final CheckBox wishlistCheckbox;
+
   private ItemProductBinding(@NonNull LinearLayout rootView, @NonNull TextView nameTextView,
-      @NonNull TextView priceTextView, @NonNull TextView storeTextView) {
+      @NonNull TextView priceTextView, @NonNull TextView storeTextView,
+      @NonNull CheckBox wishlistCheckbox) {
     this.rootView = rootView;
     this.nameTextView = nameTextView;
     this.priceTextView = priceTextView;
     this.storeTextView = storeTextView;
+    this.wishlistCheckbox = wishlistCheckbox;
   }
 
   @Override
@@ -81,8 +87,14 @@ public final class ItemProductBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.wishlistCheckbox;
+      CheckBox wishlistCheckbox = ViewBindings.findChildViewById(rootView, id);
+      if (wishlistCheckbox == null) {
+        break missingId;
+      }
+
       return new ItemProductBinding((LinearLayout) rootView, nameTextView, priceTextView,
-          storeTextView);
+          storeTextView, wishlistCheckbox);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

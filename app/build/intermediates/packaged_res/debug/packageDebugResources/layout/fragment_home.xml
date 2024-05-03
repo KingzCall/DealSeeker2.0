@@ -229,6 +229,18 @@
                 android:textSize="20sp"
                 android:layout_marginBottom="200dp"/>
 
+            <Button
+                android:id="@+id/addToWishlistButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Wishlist"
+                android:background="@drawable/button_background"
+                android:textColor="@color/white"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:onClick="addToWishlist" />
+
 
         </LinearLayout>
     </ScrollView>

@@ -2907,6 +2907,7 @@ int id view_tree_view_model_store_owner 0x7f0801c6
 int id visible 0x7f0801c7
 int id visible_removing_fragment_view_tag 0x7f0801c8
 int id wishlist 0x7f0801c9
+int id wishlistCheckbox 0x7f0801d1
 int id wishlistRecyclerView 0x7f0801ca
 int id withText 0x7f0801cb
 int id withinBounds 0x7f0801cc

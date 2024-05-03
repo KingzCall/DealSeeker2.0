@@ -68,10 +68,6 @@
         "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\rounded_corner.xml"
     },
     {
-        "merged": "com.example.dealseeker_login.app-debug-58:/layout_fragment_wishlist.xml.flat",
-        "source": "com.example.dealseeker_login.app-main-60:/layout/fragment_wishlist.xml"
-    },
-    {
         "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\layout_search_page.xml.flat",
         "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\layout\\search_page.xml"
     },
@@ -102,6 +98,10 @@
     {
         "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\drawable_ds_secondary.png.flat",
         "source": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-main-60:\\drawable\\ds_secondary.png"
+    },
+    {
+        "merged": "com.example.dealseeker_login.app-debug-58:/layout_item_product.xml.flat",
+        "source": "com.example.dealseeker_login.app-main-60:/layout/item_product.xml"
     },
     {
         "merged": "C:\\Users\\malee\\.gradle\\daemon\\8.4\\com.example.dealseeker_login.app-debug-58:\\xml_data_extraction_rules.xml.flat",

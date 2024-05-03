@@ -58,6 +58,7 @@ id social_media
 id storeTextView
 id username_input
 id wishlist
+id wishlistCheckbox
 id wishlistRecyclerView
 layout activity_main
 layout fragment_home

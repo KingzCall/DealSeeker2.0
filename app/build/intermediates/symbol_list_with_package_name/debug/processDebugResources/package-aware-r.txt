@@ -2908,6 +2908,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id wishlist
+id wishlistCheckbox
 id wishlistRecyclerView
 id withText
 id withinBounds

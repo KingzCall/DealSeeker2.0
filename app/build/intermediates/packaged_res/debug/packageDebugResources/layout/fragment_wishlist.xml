@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#0000FF"> <!-- Blue background color -->
+    android:background="#26085C"> <!-- Blue background color -->
 
     <!-- Title -->
     <TextView
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/add_to_wishlist"
         android:textColor="#FFFFFF"
-    android:backgroundTint="#0000FF" /> <!-- Blue background color -->
+    android:backgroundTint="#800080" /> <!-- Blue background color -->
 
     <!-- Wishlist Items RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
