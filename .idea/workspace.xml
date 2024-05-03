@@ -57,13 +57,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="020f764b-eb8f-4ffc-831c-0760b8866203" name="Changes" comment="test - yahya">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/Home.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/Product.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/ProductAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/ProductAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/ProductDBHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/ProductDBHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/Search.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/Wishlist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dealseeker_login/Wishlist.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
