@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.dealseeker_login.model.Product
+import com.example.dealseeker_login.model.ProductDatabaseHelper
 
 class Wishlist : Fragment() {
 
