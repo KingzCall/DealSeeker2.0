@@ -236,7 +236,7 @@
                 android:id="@+id/addToWishlistButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Add to Wishlist"
+                android:text="@string/add_to_wishlist"
                 android:background="@drawable/button_background"
                 android:textColor="@color/white"
                 android:padding="16dp"
