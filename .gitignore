@@ -6,3 +6,5 @@
 /build
 /captures
 .externalNativeBuild
+.gradle\8.6\executionHistory\executionHistory.lock
+.gradle\buildOutputCleanup\buildOutputCleanup.lock
