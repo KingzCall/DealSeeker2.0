@@ -1,8 +1,5 @@
 package com.example.dealseeker_login
 
-//import androidx.compose.material.AlertDialog
-//import androidx.compose.material.Divider
-//import androidx.compose.material.Text
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -27,7 +24,7 @@ fun PermissionDialog(
 ) {
     AlertDialog(
         onDismissRequest = onDismiss,
-        buttons = {
+        confirmButton = {
             Column(
                 modifier = Modifier.fillMaxWidth()
             ) {
