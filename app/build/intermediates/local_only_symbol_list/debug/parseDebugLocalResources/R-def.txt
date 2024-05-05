@@ -64,8 +64,11 @@ layout fragment_home
 layout fragment_phones_and_g_p_s
 layout fragment_profile
 layout fragment_search
+layout fragment_settings
+layout fragment_socialmedia
 layout fragment_wishlist
 layout item_product
+layout privacy_policy
 layout search_page
 menu bottom_nav
 mipmap ic_launcher

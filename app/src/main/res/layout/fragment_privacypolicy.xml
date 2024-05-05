@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:ignore="ExtraText"
+    tools:context=".Profile">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30px"
+            android:text="**Privacy Policy for Price Comparison App**
+
+Effective Date: [Insert Date]
+
+Thank you for using our Price Comparison App. This Privacy Policy outlines how we collect, use, disclose, and manage your information when you use our App. By accessing or using our App, you agree to the terms of this Privacy Policy.
+
+**1. Information We Collect:**
+
+We collect the following types of information when you use our App:
+
+- Personal Information: We may collect personal information such as your name, email address, phone number, and other contact details when you register an account with us or contact our customer support.
+- Usage Information: We may collect information about how you interact with the App, including your search queries, browsing history, products you view or purchase, and other usage data.
+- Device Information: We may collect information about your device, including your device type, operating system, unique device identifiers, and mobile network information.
+- Location Information: With your consent, we may collect your precise or approximate location information to provide location-based services, such as showing nearby stores or deals.
+
+**2. How We Use Your Information:**
+
+We may use the information we collect for the following purposes:
+
+- To provide and improve our services, including enhancing the functionality of the App and customizing your user experience.
+- To personalize the content and advertisements you see within the App.
+- To communicate with you about your account, transactions, and updates to our services.
+- To analyze usage trends and preferences, and to conduct research and analytics to improve our services.
+- To comply with legal obligations and enforce our Terms of Service.
+
+**3. How We Share Your Information:**
+
+We may share your information with third parties for the following purposes:
+
+- With service providers and business partners who assist us in providing the App and related services.
+- With advertisers and advertising networks to deliver relevant advertisements to you.
+- With law enforcement agencies, government authorities, or other third parties when required by law or to protect our rights or the rights of others.
+
+**4. Your Choices:**
+
+You have the following choices regarding your information:
+
+- You can update or delete your account information by contacting us through the App.
+- You can opt out of receiving promotional communications from us by following the instructions provided in the communication.
+- You can adjust your device settings to control or disable the collection of certain information.
+
+**5. Data Security:**
+
+We take reasonable measures to protect the security of your information and prevent unauthorized access, use, or disclosure.
+
+**6. Changes to this Privacy Policy:**
+
+We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by posting the updated Privacy Policy within the App or by other means.
+
+**7. Contact Us:**
+
+If you have any questions or concerns about this Privacy Policy or our practices, please contact us at [insert contact information].
+
+By using our App, you consent to the collection, use, and sharing of your information as described in this Privacy Policy."
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:text="back"
+            android:layout_marginTop="1"/>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

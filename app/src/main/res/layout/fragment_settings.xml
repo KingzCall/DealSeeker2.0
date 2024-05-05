@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:ignore="ExtraText"
+    tools:context=".Profile">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profilepic"
+        android:layout_gravity="center"
+        android:layout_marginBottom="225dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsButton"
+        android:text="Change Language"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/privacy_policy"
+        android:text="Currency Change"
+        android:layout_marginTop="300dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/social_media"
+        android:text="Location Change"
+        android:layout_marginTop="350dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:text="back"
+        android:layout_marginTop="625dp"/>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="352dp"
+        android:layout_height="680dp"
+        android:text="" />
+
+</FrameLayout>

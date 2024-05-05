@@ -3021,6 +3021,8 @@ layout fragment_home
 layout fragment_phones_and_g_p_s
 layout fragment_profile
 layout fragment_search
+layout fragment_settings
+layout fragment_socialmedia
 layout fragment_wishlist
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
@@ -3077,6 +3079,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout privacy_policy
 layout search_page
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
