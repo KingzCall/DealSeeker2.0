@@ -29,7 +29,7 @@ import com.example.dealseeker_login.databinding.ActivityMainBinding
 import com.example.dealseeker_login.model.AppInitializer
 import com.example.dealseeker_login.ui.theme.DealSeeker_LoginTheme
 
-class MainActivity() : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var searchEditText: EditText
